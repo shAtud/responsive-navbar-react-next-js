@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import MenuIcon from './MenuIcon'
-import Image from 'next/image';
 const Navbar = props =>{
     const [open,setOpen] = useState(false);
     const links = ['home','pages','Blog','about','contact']
